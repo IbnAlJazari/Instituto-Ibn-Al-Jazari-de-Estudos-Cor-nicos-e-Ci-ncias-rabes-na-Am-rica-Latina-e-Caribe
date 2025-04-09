@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مؤسسة ابن الجزري للدراسات القرآنية والعلوم العربية بأمريكا اللاتينية والكاريبي</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ربط ملف CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body dir="rtl">
+  <!-- رأس الصفحة -->
+  <header>
+    <div class="logo">
+      <!-- شعار placeholder، يمكن استبداله بصورة لاحقاً -->
+      <h1>مؤسسة ابن الجزري</h1>
+    </div>
+    <!-- قائمة التنقل -->
+    <nav>
+      <ul>
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#">من نحن</a></li>
+        <li><a href="#">القراءات العشر</a></li>
+        <li><a href="#">المكتبة</a></li>
+        <li><a href="#">الدورات</a></li>
+        <li><a href="#">الطلاب</a></li>
+        <li><a href="#">المشايخ</a></li>
+        <li><a href="#">الإدارة</a></li>
+        <li><a href="#">التعريف بالمشايخ</a></li>
+        <li><a href="#">اتصل بنا</a></li>
+      </ul>
+    </nav>
+    <!-- زر تغيير اللغة -->
+    <div class="language-switch">
+      <a href="#" class="active">عربي</a> | <a href="#">Português</a>
+    </div>
+  </header>
+  
+  <!-- الجسم الرئيسي للصفحة -->
+  <main>
+    <!-- قسم البانر الرئيسي -->
+    <section class="hero">
+      <div class="hero-content">
+        <h2>مرحباً بكم في مؤسسة ابن الجزري للدراسات القرآنية والعلوم العربية بأمريكا اللاتينية والكاريبي</h2>
+        <p>ملتقى علمي وثقافي للتعليم القرآني والعلوم العربية.</p>
+      </div>
+      <div class="hero-image">
+        <!-- صورة placeholder للبانر، يمكن استبدالها بصورة المصحف المفتوح مع الخريطة والعلم -->
+        <img src="banner-placeholder.jpg" alt="بانر المصحف والخريطة">
+      </div>
+    </section>
+    
+    <!-- قسم الروابط السريعة للأقسام -->
+    <section class="sections">
+      <div class="section-card"><a href="#">القراءات العشر</a></div>
+      <div class="section-card"><a href="#">المكتبة</a></div>
+      <div class="section-card"><a href="#">الدورات</a></div>
+      <div class="section-card"><a href="#">الطلاب</a></div>
+      <div class="section-card"><a href="#">المشايخ</a></div>
+      <div class="section-card"><a href="#">الإدارة</a></div>
+      <div class="section-card"><a href="#">التعريف بالمشايخ</a></div>
+      <div class="section-card"><a href="#">اتصل بنا</a></div>
+    </section>
+  </main>
+  
+  <!-- تذييل الصفحة -->
+  <footer>
+    <p>&copy; 2025 مؤسسة ابن الجزري. جميع الحقوق محفوظة.</p>
+    <div class="social">
+      <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">YouTube</a>
+    </div>
+  </footer>
+</body>
+</html>
